@@ -10,6 +10,7 @@ body {
 .editContent {
     position: absolute;
     top: -470px;
+    width: 40%;
 }
 .pic2 {
     float: right;
@@ -41,13 +42,25 @@ h2 {
     padding: 5px;
     background: #0E5611;
     color: #cccccc;
-    width: 50%;
+    width: 70%;
+    margin: 10px 0;
+    font-weight: normal;
+}
+h3 {
+    margin: 0;
+    font-weight: lighter;
+    font-size:0.9em;
 }
 .userInfo {
     position: absolute;
+    width: 40%;
 }
 .userContent {
-    width: 80%;
+    width: 100%;
+    font-size: 1em;
+}
+.pic {
+    margin-bottom: 20px;
 }
 #edit {
     float: right;

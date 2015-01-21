@@ -3,9 +3,31 @@ body {
     font-size: 1.5em;
     background: #3e3b36;
 }
-.main-content {
+.mainContent {
     width: 50%;
     margin: 40px 15%;
+}
+.editContent {
+    position: absolute;
+    top: -470px;
+}
+.pic2 {
+    float: right;
+}
+.button2 {
+    font-size: 1.5em;
+    margin-top: 5%;
+    background: rgb(54, 47, 152);
+    color: rgb(194, 194, 194);
+    border: none;
+    box-shadow: 0 0 5px #777777;
+}
+.button {
+    font-size: 0.8em;
+    background: rgb(54, 47, 152);
+    color: rgb(194, 194, 194);
+    border: none;
+    box-shadow: 0 0 5px #777777;
 }
 header {
     position: absolute;
@@ -15,11 +37,20 @@ h1 {
     border-bottom: 1px solid black;
     background: #787269;
 }
-.editable {
+h2 {
     padding: 5px;
     background: #0E5611;
     color: #cccccc;
     width: 50%;
+}
+.userInfo {
+    position: absolute;
+}
+.userContent {
+    width: 80%;
+}
+#edit {
+    float: right;
 }
 textarea {
     display: block;
@@ -27,7 +58,7 @@ textarea {
     width: 40%;
     height: 40px;
     margin-top: 4%;
-    font-size: 30px;
+    font-size: 1em;
 }
 .active {
     background: #178C1C;

@@ -15,20 +15,27 @@ body {
 .pic2 {
     float: right;
 }
-.button2 {
-    font-size: 1.5em;
-    margin-top: 5%;
+button {
     background: rgb(54, 47, 152);
     color: rgb(194, 194, 194);
     border: none;
     box-shadow: 0 0 5px #777777;
+    transition: .2s transform, 1s opacity;
+    transform-style: preserve-3d;
+}
+button:hover {
+    cursor: pointer;
+    background: rgb(28, 24, 81);
+}
+button:active {
+    transform: rotate3d(1, 0, 0, -50deg);
+}
+.button2 {
+    font-size: 1.5em;
+    margin-top: 5%;  
 }
 .button {
     font-size: 0.8em;
-    background: rgb(54, 47, 152);
-    color: rgb(194, 194, 194);
-    border: none;
-    box-shadow: 0 0 5px #777777;
 }
 header {
     position: absolute;
